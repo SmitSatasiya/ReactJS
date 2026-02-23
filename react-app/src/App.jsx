@@ -6,6 +6,7 @@ import Resource_Preload from "./React19/apis/Resource_Preload";
 import Simplified_Ref from "./React19/hooks/Simplified_Ref";
 import Usehook from "./React19/apis/Use";
 import AP from "./API_Integration/AP";
+import FramerMotion from "./motion/FramerMotion";
 
 const App = () => {
   return (
@@ -15,7 +16,8 @@ const App = () => {
       {/* <Resource_Preload /> */}
       {/* <Simplified_Ref /> */}
       {/* <Usehook /> */}
-      <AP />
+      {/* <AP /> */}
+      <FramerMotion />
     </>
   );
 };
