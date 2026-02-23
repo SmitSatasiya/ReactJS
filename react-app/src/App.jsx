@@ -1,35 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from "react";
+import "./App.css";
+import ActionStateExample from "./React19/hooks/useActionState";
+import CommentExample from "./React19/hooks/useOptimistic";
+import Resource_Preload from "./React19/apis/Resource_Preload";
+import Simplified_Ref from "./React19/hooks/Simplified_Ref";
+import Usehook from "./React19/apis/Use";
+import AP from "./API_Integration/AP";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      {/* <ActionStateExample /> */}
+      {/* <CommentExample /> */}
+      {/* <Resource_Preload /> */}
+      {/* <Simplified_Ref /> */}
+      {/* <Usehook /> */}
+      <AP />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

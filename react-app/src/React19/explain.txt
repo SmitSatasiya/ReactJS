@@ -1,0 +1,23 @@
+⚛️ React 19 — What’s New?
+
+--> React 19 introduces powerful improvements focused on forms, async handling, performance, and simplification.
+
+
+| Feature               | Purpose                           |
+| --------------------- | --------------------------------- |
+| `useActionState`      | Simplified async form handling    |
+| `useFormStatus`       | Track form submission state       |
+| `useOptimistic`       | Instant optimistic UI updates     |
+| `preload` / `preinit` | Resource performance optimization |
+| Simplified Refs       | Less boilerplate                  |
+| `use` API             | Direct async promise handling     |
+
+
+🎯 Why React 19 Matters
+
+React 19 focuses on:
+✅ Better UX (Optimistic UI)
+✅ Cleaner async handling
+✅ Improved performance
+✅ Simplified APIs
+✅ Better Server Component integration
