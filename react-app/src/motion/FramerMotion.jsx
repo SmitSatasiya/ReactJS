@@ -9,7 +9,7 @@ const FramerMotion = () => {
   });
   return (
     <>
-      <motion.div animate={{ x: 100 }} transition={{ duration: 1 }}>
+      <motion.div animate={{ x: 110 }} transition={{ duration: 1 }}>
         Move Me
       </motion.div>
 
