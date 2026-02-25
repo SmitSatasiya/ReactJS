@@ -7,6 +7,7 @@ const FramerMotion = () => {
     from: { opacity: 0 },
     to: { opacity: 1 },
   });
+
   return (
     <>
       <motion.div animate={{ x: 110 }} transition={{ duration: 1 }}>
