@@ -24,9 +24,9 @@ const FramerMotion = () => {
         Fade In
       </motion.div>
 
-      <animated.div style={styles}>Hello Animation</animated.div>
-    </>
+      <animated.div style={styles}>Hello  Animation</animated.div>
+    </>   
   );
 };
 
-export default FramerMotion;
+export default FramerMotion;    
