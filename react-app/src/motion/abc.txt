@@ -1,0 +1,13 @@
+
+4 - Resource Preloading APIs(preload, preinit)
+    Simplified Ref Handling ()
+
+5 - Redux Toolkit , MobX, Zustand
+
+7 - Caching & revalidation (React Query)
+TanStack Query Deep Dive
+ - Query keys
+ - Cache invalidation
+ - Optimistic updates
+
+ 11 - React.memo, useMemo, useCallback, deep understanding

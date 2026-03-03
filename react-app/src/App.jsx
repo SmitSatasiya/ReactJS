@@ -7,6 +7,7 @@ import Simplified_Ref from "./React19/hooks/Simplified_Ref";
 import Usehook from "./React19/apis/Use";
 import AP from "./API_Integration/AP";
 import FramerMotion from "@/motion/FramerMotion";
+import MemoHook from "./hook/MemoHook";
 
 const App = () => {
   return (
@@ -17,7 +18,8 @@ const App = () => {
       {/* <Simplified_Ref /> */}
       {/* <Usehook /> */}
       {/* <AP /> */}
-      <FramerMotion />
+      {/* <FramerMotion /> */}
+      <MemoHook />
     </>
   );
 };
