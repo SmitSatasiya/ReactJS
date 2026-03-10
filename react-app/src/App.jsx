@@ -11,13 +11,19 @@ import FramerMotion from "@/motion/FramerMotion";
 import Navbar from "./componentes/Navbar";
 import { useSelector, useDispatch } from "react-redux";
 import { decrement, increment, multiply } from "./Redux/counter/counterSlice";
+import Todo from "./componentes/Todo";
+import UserProfile from "./componentes/UserProfile";
+import { UserProvider } from "./hook/UserContext";
+import UpdateUser from "./componentes/UpdateUser";
+import UseReducer from "./hook/UseReducer";
+import UseRef from "./hook/UseRef";
 
 const App = () => {
-  const count = useSelector((state) => state.counter.value);
-  const dispatch = useDispatch();
+  // const count = useSelector((state) => state.counter.value);
+  // const dispatch = useDispatch();
   return (
     <>
-      <Navbar />
+      {/* <Navbar />
       <div>
         <h1>Count: {count}</h1>
 
@@ -26,7 +32,7 @@ const App = () => {
         <button onClick={() => dispatch(decrement())}>Decrement</button>
 
         <button onClick={() => dispatch(multiply())}>Multiply</button>
-      </div>
+      </div> */}
       {/* <ActionStateExample /> */}
       {/* <CommentExample /> */}
       {/* <Resource_Preload /> */}
@@ -35,6 +41,15 @@ const App = () => {
       {/* <AP /> */}
       {/* <FramerMotion /> */}
       {/* <MemoHook /> */}
+
+      {/* ***** */}
+      {/* <Todo /> */}
+      {/* <UserProvider>
+        <UserProfile />
+        <UpdateUser />
+      </UserProvider> */}
+      {/* <UseReducer /> */}
+      <UseRef />
     </>
   );
 };
